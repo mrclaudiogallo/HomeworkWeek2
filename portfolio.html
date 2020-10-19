@@ -29,6 +29,11 @@
     padding: 8px 85px 9px 85px;
   }
 
+  .note {
+    margin-left: 100px;
+    padding: 5px 100px 9px 100px;
+  }
+
   a {
     color: white;
     text-decoration: none;
@@ -39,6 +44,14 @@ a:hover
   color: white; 
   text-decoration:none; 
   cursor:pointer; 
+}
+
+.btn {
+  display: flex;
+  padding: 10px 10px 15px 15px;
+  margin-left: 100px;
+  margin-top: 10%;
+  width: 150px;
 }
   </style>
 </head>
@@ -72,11 +85,54 @@ a:hover
           <div class="row">
             <div class="col-md-6 img-fluid">
               <img style="width: 300px; height:200px; margin-top: 10px;" src="trivia.jpg" alt="Word Guesser">
-              <a target="_blank" href="https://mrclaudiogallo.github.io/Movia/" class="centered">Movia</a>
+              <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <a target="_blank" href="https://mrclaudiogallo.github.io/Movia/">
+                    <button type="button" class="btn btn-success btn-lg">Movia</button>
+                    </a> 
+                  </div>
+                </div>
+              </div>
             </div>
+          <div>  
             <div class="col-md-6 img-fluid">
               <img style="width: 300px; height:200px; margin-top: 10px;" src="scheduler.png" alt="RPG">
-              <a target="_blank" href="https://mrclaudiogallo.github.io/WorkDayScheduler/" class="scheduler centered">Scheduler</a>
+              <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <a target="_blank" href="https://mrclaudiogallo.github.io/WorkDayScheduler/">
+                    <button type="button" class="btn btn-success btn-lg">Scheduler</button>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 20px 100px" class="row">
+            <div class="col-md-6 img-fluid">
+              <img style="width: 300px; height:200px; margin-top: 10px; margin-left: 28px;" src="notestaker.jpg" alt="Note Taker">
+              <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <a target="_blank" href="http://notes-taker-cgb.herokuapp.com/">
+                    <button type="button" class="btn btn-success btn-lg">Notes Taker</button>
+                    </a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 img-fluid">
+              <img style="width: 300px; height:200px; margin-top: 10px; margin-left: 28px;" src="logo-small.png" alt="Bite Report">
+              <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <a target="_blank" href="https://bitereport.herokuapp.com/">
+                    <button type="button" class="btn btn-success btn-lg">Bite Report</button>
+                    </a> 
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
